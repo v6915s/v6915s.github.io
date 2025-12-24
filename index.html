@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name | Portfolio</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      background: #0f172a;
+      color: #e5e7eb;
+      line-height: 1.6;
+    }
+
+    header {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      background: linear-gradient(135deg, #2563eb, #9333ea);
+    }
+
+    header h1 {
+      font-size: 3rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin: 15px 0;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 30px;
+      background: #0f172a;
+      color: #fff;
+      border-radius: 30px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #020617;
+    }
+
+    section {
+      padding: 80px 10%;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 40px;
+      font-size: 2.2rem;
+      color: #38bdf8;
+    }
+
+    .about,
+    .projects,
+    .contact {
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #020617;
+      padding: 25px;
+      border-radius: 15px;
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #020617;
+      color: #94a3b8;
+    }
+
+    a {
+      color: #38bdf8;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HERO -->
+  <header>
+    <div>
+      <h1>Hi, I'm <span style="color:#0f172a;">Your Name</span></h1>
+      <p>Web Developer | Designer | Creator</p>
+      <a href="#contact" class="btn">Hire Me</a>
+    </div>
+  </header>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="about">
+      <p>
+        I am a passionate web developer focused on creating modern, fast,
+        and user-friendly websites. I love working with HTML, CSS,
+        JavaScript, and new technologies.
+      </p>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <div class="card">
+        <h3>Project One</h3>
+        <p>Modern responsive website using HTML & CSS.</p>
+      </div>
+      <div class="card">
+        <h3>Project Two</h3>
+        <p>Portfolio website hosted on GitHub Pages.</p>
+      </div>
+      <div class="card">
+        <h3>Project Three</h3>
+        <p>Landing page with clean UI design.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <div class="contact">
+      <p>Email: <a href="mailto:your@email.com">your@email.com</a></p>
+      <p>GitHub: <a href="https://github.com/username">github.com/username</a></p>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 Your Name. All Rights Reserved.
+  </footer>
+
+</body>
+</html>
