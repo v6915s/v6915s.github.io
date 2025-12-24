@@ -1,2 +1,2 @@
-# v6915s.github.io
+# v6915s
 Primary
